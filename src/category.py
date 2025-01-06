@@ -1,10 +1,11 @@
 class Category:
-    ''' Класс, описывающий категории '''
-    name: str  #название
-    description: str  #описание
-    products: list  #список товаров категории
-    number_categories = 0  #количество категорий
-    number_products = 0  #количество товаров
+    """Класс, описывающий категории"""
+
+    name: str  # название
+    description: str  # описание
+    products: list  # список товаров категории
+    number_categories = 0  # количество категорий
+    number_products = 0  # количество товаров
 
     def __init__(self, name, description, products):
         self.name = name

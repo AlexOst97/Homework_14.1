@@ -1,9 +1,10 @@
 class Product:
-    ''' Класс, описывающий продукты '''
-    name: str  #название
-    description: str  #описание
-    price: float  #цена
-    quantity: int  #количество в наличии
+    """Класс, описывающий продукты"""
+
+    name: str  # название
+    description: str  # описание
+    price: float  # цена
+    quantity: int  # количество в наличии
 
     def __init__(self, name, description, price, quantity):
         self.name = name
